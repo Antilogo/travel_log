@@ -1,0 +1,301 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.clear{
+  clear: both;
+}
+
+.col{
+  float: left;
+}
+
+.col-twice{
+  width: 50%;
+}
+
+
+#main{
+
+}
+
+
+#header{
+  height: 64px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#logo{
+  float: left;
+  margin-left: 50px;
+}
+
+#logo a{
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 64px;
+  padding: 15px;
+  color: #000;
+}
+
+
+#nav{
+  display: inline-block;
+  float: right;
+  margin-right: 50px;
+
+}
+
+#nav>li{
+  display: inline-block;
+  position: relative;
+}
+
+#nav > li > a{
+  color: #000;
+
+}
+
+#nav li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 64px;
+  padding: 15px;
+}
+
+#header .mobile-menu{
+  margin: 13px;
+  padding: 10px;
+  border: 1px solid #9fc6c6;
+  border-radius: 4px;
+  color: #9fc6c6;
+}
+
+#header .mobile-menu-btn{
+  float: right;
+}
+
+
+#header .search-button:hover{
+  background-color: red;
+  cursor: pointer;
+}
+
+#header .mobile-menu-btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
+#header .mobile-menu-btn:hover {
+  background-color: #ccc;
+}
+#header .mobile-menu-btn:hover .mobile-menu-icon{
+  color: #000;
+}
+
+#header .mobile-menu-icon{
+  padding: 7px;
+  padding: 0 16px;
+}
+
+#slider{
+  position: relative;
+  margin-top: 46px;
+  padding-top: 50%;
+  background: url('../img/bg-masthead.jpg') top center / cover no-repeat
+  
+}
+
+#slider .txt-content{
+  position: absolute;
+  bottom: 0;
+  color: gray;
+  padding: 35px;
+  margin-bottom: 200px;
+    /*  Center 1 */
+  /* left: 50%;
+  transform: translateX(-50%); 
+
+    /*  Center 2 */
+  width: 100%;
+
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+#slider .txt-heading{
+  font-weight: 900;
+  font-size: 8rem;
+  margin: 10px 0;
+}
+
+#slider .txt-desciption{
+  margin: 15px auto;
+  width: 40%;
+}
+#slider .txt-content button{
+  padding: 15px 25px;
+  background-color: #9fc6c6;
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+}
+
+#content{
+
+}
+
+#builtEt{
+  background-color: #000;
+  padding: 64px 0;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#content .content-section{
+  padding: 64px 0;
+  width: 800px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#content .section-heading{
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 10px 0;
+  letter-spacing: 4px;
+}
+
+#content .about-txt{
+  color: gray;
+  font-weight: 500;
+  text-align: center;
+  margin: 15px 0;
+  font-size: 15px;
+  line-height: 1.4;
+  width: 30%;
+  margin: 10px auto;
+}
+
+#content .about-txt a{
+  color: #9fc6c6;
+}
+
+#content .shoreline{
+  margin-top: 50px;
+}
+
+#content .image{
+  width: 49%;
+}
+
+#content .image img{
+  width: 100%;
+  float: left;
+
+
+}
+
+#content .bar{
+  float: left;
+  margin-top: 50px;
+
+  width: 2%;
+  background-color: #9fc6c6;
+  height: 150px;
+}
+
+#content .img-context{
+  text-align: center;
+  width: 49%;
+  transform: translateY(50%);
+  float: left;
+
+  width: 45%;
+
+}
+
+#content .img-header{ 
+  margin-bottom: 12px;
+}
+
+#content .mountain,
+#content .misty{
+  margin-top: 150px;
+}
+
+#content .mountain-image img,
+#content .misty-image img{
+  width: 100%;
+  height: 282px;
+}
+
+#content .mountain-img-context,
+#content .misty-img-context{
+  text-align: center;
+  padding-top: 85px;
+  padding-bottom: 120px;
+  background-color: #000;
+  color: #fff;
+}
+
+#content .mountain-img-context{
+  margin-bottom: 115px;
+}
+
+#content .sign-up-section{
+  position: relative;
+  margin-top: 440px;
+  padding: 340px 0;
+  background: url('../img/bg-signup.jpg') top center / cover no-repeat
+  
+}
+
+#content .sign-up-section{
+  text-align: center;
+}
+
+#content .signup-header{
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#content .signup-content input{
+  height: 38px;
+  width: 300px;
+
+}
+
+#content .signup-content button{
+  padding: 10px 30px;
+  text-transform: uppercase;
+  background-color: #9fc6c6;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+}
+
+#footer{
+  text-align: center;
+  color: gray;
+  background-color: #000;
+  padding: 40px;
+}
+

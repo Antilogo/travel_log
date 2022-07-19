@@ -1,0 +1,61 @@
+@media (max-width: 740px){
+
+  .s-full-width{
+    width: 100% !important;
+  }
+
+  #main{
+    overflow: hidden;
+  }
+
+  #header{
+    overflow: hidden;
+  }
+
+  #header .mobile-menu-btn{
+    display: block;
+  }
+
+  #slider{
+    height: 500px;
+  }
+
+  #slider .txt-content{
+    margin: 0;
+  }
+  
+  #slider .txt-heading{
+    font-size: 4rem;
+  }
+
+  #content .about-txt {
+    width: 60%;
+  }
+
+  #content .bar{
+    display: none;
+  }
+
+  #content .shoreline {
+    margin-top: 0;
+}
+
+  #content .img-context{
+    margin-bottom: 100px;
+  }
+
+  #content .misty-img-context {
+    margin-top: -4px;
+  }
+
+  #content .mountain-img-context {
+    margin-top: 300px;
+  }
+  #content .mountain-image {
+    margin-top: -710px;
+  }
+  #content .sign-up-section{
+    padding: 150px 0px;
+    margin-top: 1100px;
+  }
+}
